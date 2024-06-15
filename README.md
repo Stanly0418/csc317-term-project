@@ -10,9 +10,9 @@ Please follow the instructions below and fill in the information requested when 
 
 |               | Information   |
 |:-------------:|:-------------:|
-| Student Name  | name-here     |
-| Student ID    | id-here       |
-| Student Email | email-here    |
+| Student Name  | Shang Hsi Yang    |
+| Student ID    | 922958176       |
+| Student Email | syang22@sfsu.edu    |
 
 
 
