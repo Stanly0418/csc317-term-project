@@ -5,33 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - ViewNest</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
   <header>
-    <h1>ViewNest</h1>
+    <div class="container">
+      <h1>ViewNest</h1>
+    </div>
   </header>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="login.html">Login</a>
-    <a href="registration.html">Register</a>
-    <a href="postvideo.html">Post Video</a>
-    <a href="viewpost.html">View Post</a>
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="registration.html">Register</a>
+      <a href="postvideo.html">Post Video</a>
+      <a href="viewpost.html">View Post</a>
+    </div>
   </nav>
-  <section>
-    <h2>Login</h2>
-    <form action="login.html" method="post">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      <br>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required>
-      <br>
-      <button type="submit">Login</button>
-    </form>
-  </section>
+  <div class="container">
+    <section>
+      <h2>Login</h2>
+      <form action="login.html" method="post">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </div>
   <footer>
-    <p>&copy; 2024 ViewNest. Shang Hsi Yang.</p>
+    <p>&copy; 2024 ViewNest. All rights reserved.</p>
   </footer>
 </body>
 
