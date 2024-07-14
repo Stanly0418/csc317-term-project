@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - ViewNest</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script defer src="fetchPosts.js"></script>
 </head>
 
 <body>
@@ -34,7 +35,8 @@
       <ul>
         <li><strong>Discover:</strong> Find videos that match your interests and discover new passions.</li>
         <li><strong>Share:</strong> Upload your own videos and share them with a global audience.</li>
-        <li><strong>Connect:</strong> Engage with a community of like-minded individuals through comments and discussions.
+        <li><strong>Connect:</strong> Engage with a community of like-minded individuals through comments and
+          discussions.
         </li>
       </ul>
       <h3>Featured Videos</h3>
@@ -46,6 +48,17 @@
       </ul>
     </section>
   </div>
+
+  <div class="container">
+    <main>
+      <header>
+        <h1>Photo Gallery</h1>
+      </header>
+      <div id="photo-container" class="photo-container"></div>
+      <p id="photo-count">Total Photos: 0</p>
+    </main>
+  </div>
+
   <footer>
     <p>&copy; 2024 ViewNest. All rights reserved.</p>
   </footer>
