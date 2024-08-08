@@ -6,6 +6,7 @@
   <title>Register - ViewNest</title>
   <link rel="stylesheet" type="text/css" href="styles.css" />
   <script defer src="validateRegistrationForm.js"></script>
+
 </head>
 <body>
   <header>
@@ -20,11 +21,14 @@
       <a href="registration.html">Register</a>
       <a href="postvideo.html">Post Video</a>
       <a href="viewpost.html">View Post</a>
+      <a href="/logout">Logout</a>
+
     </div>
   </nav>
   <div class="container">
     <section>
       <h2>Register</h2>
+
       <form id="registrationForm" action="registration.html" method="post" onsubmit="validateForm(event)">
         <div>
           <label for="username">Username:</label>
@@ -41,6 +45,24 @@
         <div>
           <label for="confirm_password">Confirm Password:</label>
           <input type="password" id="confirm_password" name="confirm_password">
+
+      <form action="/register" method="post">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+          <label for="confirm_password">Confirm Password:</label>
+          <input type="password" id="confirm_password" name="confirm_password" required>
+
         </div>
         <div>
           <label for="age">
