@@ -27,27 +27,23 @@
   </nav>
   <div class="container">
     <section>
-      <h2>Post a Video</h2>
-      <form action="postvideo.html" method="post" enctype="multipart/form-data">
-        <div>
-          <label for="title">Title:</label>
-          <input type="text" id="title" name="title" required>
-        </div>
-        <div>
-          <label for="description">Description:</label>
-          <textarea id="description" name="description" required></textarea>
-        </div>
-        <div>
-          <label for="video">Video:</label>
-          <input type="file" id="video" name="video" accept="video/*" required>
-        </div>
-        <div>
-          <label for="aup">
-            <input type="checkbox" id="aup" name="aup" required>
-            I accept the Acceptable Use Policy.
-          </label>
-        </div>
-        <button type="submit">Post Video</button>
+      <h2>Upload Your Video</h2>
+      <form action="/postvideo" method="POST" enctype="multipart/form-data">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="video">Video File:</label>
+        <input type="file" id="video" name="video" accept="video/*" required>
+
+        <label for="agree">
+          <input type="checkbox" id="agree" name="agree" required>
+          I agree to the Acceptable Use Policy
+        </label>
+
+        <button type="submit">Upload Video</button>
       </form>
     </section>
   </div>
