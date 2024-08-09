@@ -20,7 +20,7 @@ body {
 
 
 header {
-  background: linear-gradient(to bottom, #800000, #400000);
+  background: linear-gradient(to bottom, #3e2400, #10004000);
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 nav {
-  background: #600000;
+  background: #060060;
   padding: 10px 0;
   text-align: center;
 }
@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #400000;
+  background-color: #3a4000;
 }
 
 section {
